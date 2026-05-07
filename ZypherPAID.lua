@@ -2,10 +2,10 @@
 -- Made by RuRu
 
 local ui_options = {
-	main_color = Color3.fromRGB(0, 0, 138),
-	min_size = Vector2.new(650, 750),
-	toggle_key = Enum.KeyCode.RightShift,
-	can_resize = false,
+	main_color = Color3.fromRGB(41, 74, 122),
+    min_size = Vector2.new(400, 300),
+    toggle_key = Enum.KeyCode.RightShift,
+    can_resize = true
 }
 
 do
@@ -104,7 +104,7 @@ Label.Size = UDim2.new(0, 200, 0, 20)
 Label.Font = Enum.Font.DenkOne
 Label.Text = "Hello, world 123"
 Label.TextColor3 = Color3.new(1, 1, 1)
-Label.TextSize = 20
+Label.TextSize = 17
 Label.TextXAlignment = Enum.TextXAlignment.Left
 
 Window.Name = "Window"
@@ -339,7 +339,7 @@ Dropdown.ZIndex = 2
 Dropdown.Font = Enum.Font.DenkOne
 Dropdown.Text = "      Dropdown"
 Dropdown.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-Dropdown.TextSize = 20
+Dropdown.TextSize = 17
 Dropdown.TextXAlignment = Enum.TextXAlignment.Left
 
 Indicator_2.Name = "Indicator"
@@ -398,7 +398,7 @@ TabButton.ZIndex = 2
 TabButton.Font = Enum.Font.DenkOne
 TabButton.Text = "Test tab"
 TabButton.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TabButton.TextSize = 20
+TabButton.TextSize = 17
 
 TextButton_Roundify_4px_2.Name = "TextButton_Roundify_4px"
 TextButton_Roundify_4px_2.Parent = TabButton
@@ -431,7 +431,7 @@ Button.ZIndex = 2
 Button.Font = Enum.Font.DenkOne
 Button.Text = "      Folder"
 Button.TextColor3 = Color3.new(1, 1, 1)
-Button.TextSize = 20
+Button.TextSize = 17
 Button.TextXAlignment = Enum.TextXAlignment.Left
 
 TextButton_Roundify_4px_3.Name = "TextButton_Roundify_4px"
@@ -696,7 +696,7 @@ Switch.ZIndex = 2
 Switch.Font = Enum.Font.DenkOne
 Switch.Text = ""
 Switch.TextColor3 = Color3.new(1, 1, 1)
-Switch.TextSize = 20
+Switch.TextSize = 17
 
 TextButton_Roundify_4px_4.Name = "TextButton_Roundify_4px"
 TextButton_Roundify_4px_4.Parent = Switch
@@ -718,7 +718,7 @@ Title_3.Size = UDim2.new(0, 20, 0, 20)
 Title_3.Font = Enum.Font.DenkOne
 Title_3.Text = "Switch"
 Title_3.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-Title_3.TextSize = 20
+Title_3.TextSize = 17
 Title_3.TextXAlignment = Enum.TextXAlignment.Left
 
 Button_2.Name = "Button"
@@ -730,7 +730,7 @@ Button_2.Size = UDim2.new(0, 91, 0, 20)
 Button_2.ZIndex = 2
 Button_2.Font = Enum.Font.DenkOne
 Button_2.TextColor3 = Color3.new(1, 1, 1)
-Button_2.TextSize = 20
+Button_2.TextSize = 17
 
 TextButton_Roundify_4px_5.Name = "TextButton_Roundify_4px"
 TextButton_Roundify_4px_5.Parent = Button_2
@@ -751,7 +751,7 @@ DropdownButton.ZIndex = 3
 DropdownButton.Font = Enum.Font.DenkOne
 DropdownButton.Text = "      Button"
 DropdownButton.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-DropdownButton.TextSize = 20
+DropdownButton.TextSize = 17
 DropdownButton.TextXAlignment = Enum.TextXAlignment.Left
 
 Keybind.Name = "Keybind"
