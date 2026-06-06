@@ -1178,7 +1178,7 @@ function bd:AddWindow(bi, bj)
 			c1.ScrollBarThickness = 4;
 			c1.CanvasSize = UDim2.new(0, 0, 0, 0)
 			c1.ZIndex = c0.ZIndex;
-			c1.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+			c1.ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255)
 			c1.ScrollBarImageTransparency = 0.4;
 			local bu = c0:FindFirstChildOfClass("UIListLayout")
 			if bu then
